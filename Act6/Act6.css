@@ -1,3 +1,4 @@
+/* °Fondo-------------------------------------*/
 body{
     margin: 0%;
 }
@@ -7,6 +8,7 @@ aside{
     height: 100%;
     background-color: navy;
 }
+/* °CARA BABY YODA-----------------------*/
 .color{
     position: absolute;
     height: 12%;;
@@ -149,13 +151,78 @@ aside{
     transform: rotate(310deg);
     border-radius: 0em 100% 0em 0em;
 }
+/* °CUERPO BABY YODA------------------------------------------*/
 #collar{
     position: absolute;
-    top: 37.8%;
-    left: 42%;
+    top: 37%;
+    left: 40.5%;
     height: 6%;
-    width: 10%;
+    width: 13.3%;
     background-color: #B48E39;
     border: black;
     border-radius: 1em;
+}
+#arms{
+    position: absolute;
+    top: 40.3%;
+    left: 40.1%;
+    height: 6.3%;
+    width: 14%;
+    background-color: #644501;
+    border-radius: 0.8em;
+}
+#mangaright{
+    position: absolute;
+    top: 42.5%;
+    left: 42.8%;
+    height: 4.5%;
+    width: 2%;
+    background-color: #B48E39;
+    border-radius: 0.6em;
+}
+#mangaleft{
+    position: absolute;
+    top: 42.5%;
+    left: 49.4%;
+    height: 4.5%;
+    width: 2%;
+    background-color: #B48E39;
+    border-radius: 30%;
+}
+#cintura{
+    position: absolute;
+    top: 46.3%;
+    left: 41.9%;
+    height: 1.5%;
+    width: 11%;
+    background-color: #644501;
+    border-radius: 30%;
+}
+#bajo{
+    position: absolute;
+    top: 46.7%;
+    left: 39%;
+    height: 9%;
+    width: 16.5%;
+    background-color: #644501;
+    border-radius:  1.4em;
+}
+#cup{
+    position: absolute;
+    top: 41.7%;
+    left: 44.7%;
+    height: 7.5%;
+    width: 5.1%;
+    background-color: rgb(36, 16, 122);
+    border-radius:  30%;
+}
+#bordercup{
+    position: absolute;
+    top: 41.7%;
+    left: 44.71%;
+    height: 1.5%;
+    width: 5%;
+    background-color: rgb(4, 0, 22);
+    border-radius:  70%;
+    border-width: 10px;
 }
