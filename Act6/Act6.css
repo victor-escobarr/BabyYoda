@@ -18,47 +18,38 @@ aside{
     position: absolute;
     left: 5%;
     top: 10%;
-    color:blanchedalmond;
-    background-color: black;
+    background-color: red;
   }
   #boton1:hover{
-    color: black;
-    background-image: url("./Statics/Img/espacio.png");
+    background-color: tomato;
   }
   #boton2{
     position: absolute;
     left: 55%;
     top: 10%;
-    
-    background-image: url("./Statics/Img/xd.jpg");
     background-color: blue;
   }
   #boton2:hover{
-    color: black;
-    background-image: url("./Statics/Img/espacio.png");
-    
+    background-color: aqua;
   }
   #boton3{
     position: absolute;
     left: 5%;
     top: 25%;
-    
-    background-image: url("./Statics/Img/xd.jpg");
+    background-color: gold;
   }
   #boton3:hover{
-    color: black;
-    background-image: url("./Statics/Img/espacio.png");
+    background-color: yellow;
   }
   #boton4{
     position: absolute;
     left: 55%;
     top: 25%;
+    background-color: #9AD9AA;
     
-    background-image: url("./Statics/Img/xd.jpg");
   }
   #boton4:hover{
-    color: black;
-    background-image: url("./Statics/Img/espacio.png");
+    background-color: rgb(155, 209, 75);
   }
 .accion{
     position: absolute;
