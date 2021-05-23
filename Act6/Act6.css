@@ -49,13 +49,23 @@ aside{
 }
 .rell1{
     position: absolute;
-
+    top: 21.55%;  
+    width: 10%;
+    height: 9.8%;
     background-color: #D9663D;
+}
+.rell2{
+    position: absolute;
+    top: 22.5%;  
+    width: 7%;
+    height: 3%;
+    background-color: #BF6533;
 }
 #cabeza{
     position: absolute;
     top:20%;
     left: 40%;
+    z-index: 1;
     height: 20%;
     width: 14%;
     border-radius: 50%;
@@ -93,7 +103,9 @@ aside{
 
 }
 #orejIzq1{
-    left: 31.7%;
+    position: absolute;
+    top: 20.1%;
+    left: 31.5%;
     transform: rotate(30deg);
 }
 #orejDer1{
@@ -112,4 +124,38 @@ aside{
     transform: rotate(60deg);
     border-radius: 0em 0em 50% 0em;
     border-right: solid 4px #9AD9AA;
+}
+#rellIzq1{
+    left: 32%;
+    transform: rotate(60deg);
+    z-index: -1;
+    border-radius: 90% 0em 50% 0em;
+}
+#rellDer1{
+    left: 52%;
+    z-index: -1;
+    transform: rotate(300deg);
+    border-radius: 0em 90% 0em 50%;
+}
+#rellIzq2{
+    left: 35.2%;
+    transform: rotate(45deg);
+    z-index: -1;
+    border-radius: 100% 0em 0em 0em;
+}
+#rellDer2{
+    left: 52%;
+    z-index: -1;
+    transform: rotate(310deg);
+    border-radius: 0em 100% 0em 0em;
+}
+#collar{
+    position: absolute;
+    top: 37.8%;
+    left: 42%;
+    height: 6%;
+    width: 10%;
+    background-color: #B48E39;
+    border: black;
+    border-radius: 1em;
 }
