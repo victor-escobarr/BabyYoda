@@ -6,15 +6,117 @@ aside{
     position: absolute;
     width: 16.3%;
     height: 100%;
-    background-color: navy;
+    
 }
 /* °CARA BABY YODA-----------------------*/
 .color{
     position: absolute;
-    height: 12%;;
+    height: 12%;
     width: 35%;
-    background-color:red;
+} 
+#boton1{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    color:blanchedalmond;
+    background-color: black;
+  }
+  #boton1:hover{
+    color: black;
+    background-image: url("./Statics/Img/espacio.png");
+  }
+  #boton2{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    
+    background-image: url("./Statics/Img/xd.jpg");
+    background-color: blue;
+  }
+  #boton2:hover{
+    color: black;
+    background-image: url("./Statics/Img/espacio.png");
+    
+  }
+  #boton3{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    
+    background-image: url("./Statics/Img/xd.jpg");
+  }
+  #boton3:hover{
+    color: black;
+    background-image: url("./Statics/Img/espacio.png");
+  }
+  #boton4{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    
+    background-image: url("./Statics/Img/xd.jpg");
+  }
+  #boton4:hover{
+    color: black;
+    background-image: url("./Statics/Img/espacio.png");
+  }
+.accion{
+    position: absolute;
+    height: 12%;
+    width: 100%;
 }
+#boton5{
+    position: absolute;
+    left: 0%;
+    top:55%;
+    
+    background-color: black;
+  }
+  #boton5:hover{
+    color: black;
+    background-image: url("./Statics/Img/espacio.png");
+  }
+
+  #boton6{
+    position: absolute;
+    left: 0%;
+    top:70%;
+    
+    background-color: black;
+  }
+  #boton6:hover{
+    color: black;
+    background-image: url("./Statics/Img/espacio.png");
+  }
+
+  #boton7{
+    position: absolute;
+    left: 0%;
+    top:85%;
+    
+    background-color: black;
+  }
+  #boton7:hover{
+    color: black;
+    background-image: url("./Statics/Img/espacio.png");
+  }
+ .texto{
+    color: black;
+    font-family: sans-serif;
+  }
+
+  #cambiar{
+    position: absolute;
+    left: 25%;
+    top: 4%;
+  }
+
+  #accion{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+  }
+
 .ojo{
     position: absolute;
     top: 40%;
@@ -102,7 +204,6 @@ aside{
     border-radius: 50%;
     width: 20%;
     height: 13%;
-
 }
 #orejIzq1{
     position: absolute;
