@@ -8,39 +8,46 @@ aside{
     height: 100%;
     
 }
-/* °CARA BABY YODA-----------------------*/
+/* °Color-----------------------*/
 .color{
     position: absolute;
     height: 12%;
     width: 35%;
 } 
+/*=boton rojo*/
 #boton1{
     position: absolute;
     left: 5%;
     top: 10%;
     background-color: red;
   }
+  /*=boton rojo con hover*/
   #boton1:hover{
     background-color: tomato;
   }
+  /*=boton azul*/
   #boton2{
     position: absolute;
     left: 55%;
     top: 10%;
     background-color: blue;
   }
+   /*=boton azul con hover*/
   #boton2:hover{
     background-color: aqua;
   }
+   /*=boton dorado*/
   #boton3{
     position: absolute;
     left: 5%;
     top: 25%;
     background-color: gold;
   }
+  /*=boton dorado con hover*/
   #boton3:hover{
     background-color: yellow;
   }
+     /*=boton verde*/
   #boton4{
     position: absolute;
     left: 55%;
@@ -48,6 +55,7 @@ aside{
     background-color: #9AD9AA;
     
   }
+   /*=boton verde con hover*/
   #boton4:hover{
     background-color: rgb(155, 209, 75);
   }
@@ -107,7 +115,7 @@ aside{
     left: 40%;
     top: 50%;
   }
-
+/* =ojo posicion*/
 .ojo{
     position: absolute;
     top: 40%;
@@ -115,6 +123,7 @@ aside{
     height: 19%;
     background-color: black;
 }
+/* =ceja posicion*/
 .ceja{
     position: absolute;
     top: 30%;
@@ -125,6 +134,7 @@ aside{
     border-top: solid;
     border-radius: 50%;
 }
+/* =oreja1 clase*/
 .orej1{
     position: absolute;
     top: 20%;  
@@ -134,6 +144,7 @@ aside{
     border-top: solid 4px #9AD9AA;
     border-radius: 50%;
 }
+/* =oreja2 clase*/
 .orej2{
     position: absolute;
     top: 21%;  
@@ -142,6 +153,7 @@ aside{
     border: none;
     border-bottom: solid 4px #9AD9AA;
 }
+/* =relleno1 clase*/
 .rell1{
     position: absolute;
     top: 21.55%;  
@@ -149,6 +161,7 @@ aside{
     height: 9.8%;
     background-color: #D9663D;
 }
+/* =relleno2 clase*/
 .rell2{
     position: absolute;
     top: 22.5%;  
@@ -156,6 +169,7 @@ aside{
     height: 3%;
     background-color: #BF6533;
 }
+/* =cabeza*/
 #cabeza{
     position: absolute;
     top:20%;
@@ -166,16 +180,19 @@ aside{
     border-radius: 50%;
     background-color: #9AD9AA;
 }
+/* =ojo derecho*/
 #der{
     position: absolute;
     left: 60%;
     border-radius: 50% 50% 50% 0em;
 }
+/* =ojo izquierdo*/
 #izq{
     position: absolute;
     left: 13.3%;
     border-radius: 50% 50% 0em 50%;
 }
+/* =nariz*/
 #nariz{
     position: absolute;
     top: 57%;
@@ -186,6 +203,7 @@ aside{
     border-top: solid;
     border-radius: 50%;
 }
+/* =sonrisa*/
 #sonrisa{
     position: absolute;
     top: 60%;
@@ -196,16 +214,19 @@ aside{
     width: 20%;
     height: 13%;
 }
+/* =Oreja1 izquierda especificaciones*/
 #orejIzq1{
     position: absolute;
     top: 20.1%;
     left: 31.5%;
     transform: rotate(30deg);
 }
+/* =Oreja1 derecha especificaciones*/
 #orejDer1{
     left: 52.6%;
     transform: rotate(330deg);
 }
+/* =Oreja2 izquierda especificaciones*/
 #orejDer2{
     left: 52%;
     transform: rotate(300deg);
@@ -213,30 +234,35 @@ aside{
     border-bottom: solid 4px #9AD9AA;
     border-left: solid 4px #9AD9AA;
 }
+/* =Oreja2 derecha especificaciones*/
 #orejIzq2{
     left: 32%;
     transform: rotate(60deg);
     border-radius: 0em 0em 50% 0em;
     border-right: solid 4px #9AD9AA;
 }
+/* =relleno1 izquierda especificaciones*/
 #rellIzq1{
     left: 32%;
     transform: rotate(60deg);
     z-index: -1;
     border-radius: 90% 0em 50% 0em;
 }
+/* =relleno1 derecha especificaciones*/
 #rellDer1{
     left: 52%;
     z-index: -1;
     transform: rotate(300deg);
     border-radius: 0em 90% 0em 50%;
 }
+/* =relleno2 izquierda especificaciones*/
 #rellIzq2{
     left: 35.2%;
     transform: rotate(45deg);
     z-index: -1;
     border-radius: 100% 0em 0em 0em;
 }
+/* =relleno2 derecha especificaciones*/
 #rellDer2{
     left: 52%;
     z-index: -1;
@@ -264,6 +290,7 @@ aside{
     border-radius: 0.8em;
 }
 #mangaright{
+  z-index: 2;
     position: absolute;
     top: 42.5%;
     left: 42.8%;
@@ -271,6 +298,8 @@ aside{
     width: 2%;
     background-color: #B48E39;
     border-radius: 0.6em;
+    border: solid 0.5px black;
+    animation: comer 5s ease-in infinite running;
 }
 #mangaleft{
     position: absolute;
@@ -280,6 +309,29 @@ aside{
     width: 2%;
     background-color: #B48E39;
     border-radius: 30%;
+}
+#manoIzq{
+  z-index: 3;
+  position: absolute;
+  top: 42%;
+  left: 44%;
+  height: 5%;
+  width: 2.5%;
+  border-radius: 50%;
+  background-color: #9AD9AA;
+  border: solid 0.5px black;
+  animation: comer1 5s ease-in infinite running;
+}
+#comida{
+  z-index: 2;
+  position: absolute;
+  top: 40.7%;
+  left: 46.3%;
+  width: 1.5%;
+  height: 3%;
+  border-radius: 50%;
+  background-color: tomato;
+  animation: comer2 5s ease-in infinite running;
 }
 #cintura{
     position: absolute;
@@ -318,3 +370,50 @@ aside{
     border-radius:  70%;
     border-width: 10px;
 }
+/*=Animaciones---------------------------------------------*/
+
+/*comer*/
+@keyframes comer{
+  20%{
+    top: 40%;
+    left: 43.8%;
+  }
+  26%{
+    top: 40%;
+    left: 43.8%;
+    rotate: 0%;
+  }
+  50%{
+    top: 36%;
+    transform: rotate(-30deg);
+  }
+  60%{
+    top: 36%;
+    transform: rotate(-30deg);
+  }
+}
+@keyframes comer1{
+  20%{
+    top: 40%;
+    left: 45%;
+  }
+  50%{
+    top: 34%;
+  }
+}
+@keyframes comer2{
+  20%{
+    top: 40.7%;
+  }
+  50%{
+    top: 34%;
+    width: 1.5%;
+  }
+  51%{
+    width: 0%;
+  }
+  100%{
+    width: 0%;
+  }
+}
+
