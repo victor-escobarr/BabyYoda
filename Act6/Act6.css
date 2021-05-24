@@ -594,7 +594,7 @@ aside{
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background:gray;
+  background:#4A311D  ;
   animation-delay: rokita 5s ease-in infinite paused ;
 }
 
@@ -650,7 +650,6 @@ aside{
     top: 43%;
     transform: rotate(-30deg);
   }
-  
   50%{
     top: 42.5%;
     left: 52%;
