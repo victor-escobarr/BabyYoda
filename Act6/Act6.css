@@ -194,13 +194,13 @@ aside{
     border-radius: 50%;
     background-color: #9AD9AA;
 }
-/* =ojo derecho*/
+/* °ojo derecho---------------------------------*/
 #der{
     position: absolute;
     left: 60%;
     border-radius: 50% 50% 50% 0em;
 }
-/* =ojo izquierdo*/
+/* °ojo izquierdo--------------------------------*/
 #izq{
     position: absolute;
     left: 13.3%;
@@ -398,7 +398,7 @@ aside{
 }
 /*=Animaciones---------------------------------------------*/
 
-/*comer*/
+/* °COMER----------------------*/
 @keyframes comer{
   20%{
     top: 40%;
@@ -442,4 +442,147 @@ aside{
     width: 0%;
   }
 }
+/* °Dormir---------------------*/
+
+.eyes{
+  position: absolute;
+  top: 50%;
+  width: 25%;
+  height: 4%;
+  background-color: black;
+}
+#eyeright{ 
+  position: absolute;
+  left: 60%;
+  border-radius: 50% 50% 50% 0em;
+}
+/* °ojo izquierdo---------*/
+#eyeleft{
+  position: absolute;
+  left: 13.3%;
+  border-radius: 50% 50% 0em 50%;
+}
+
+#upzeta{
+  position: absolute;
+  left: 50%;
+  top: 17.5%;
+  width: 2.2%;
+  height: 0.8%;
+  background-color: black;
+  animation: desvanecer1 4s linear infinite;
+  
+}
+#downzeta{
+  position: absolute;
+  left: 50.2%;
+  top: 19.6%;
+  width: 2.2%;
+  height: 0.8%;
+  background-color: black;
+  animation: desvanecer1 4s linear infinite;
+  
+}
+#middlezeta{
+  position: absolute;
+  left: 51%;
+  top: 17.2%;
+  width: 0.46%;
+  height: 3.9%;
+  background-color: black; 
+  transform: rotate(60deg);
+  animation: desvanecer1 4s linear infinite;
+
+}
+#uz2{
+  position: absolute;
+  left: 53%;
+  top: 11.8%;
+  width: 2.8%;
+  height: 0.9%;
+  background-color: black;
+  animation: desvanecer2 4s linear infinite;
+}
+#dz2{
+  position: absolute;
+  left: 53%;
+  top: 15%;
+  width: 2.8%;
+  height: 0.9%;
+  background-color: black;
+  animation: desvanecer2 4s linear infinite;
+}
+#mz2{
+  position: absolute;
+  left: 54%;
+  top: 11.3%;
+  width: 0.46%;
+  height: 5.5%;
+  background-color: black; 
+  transform: rotate(55deg);
+  animation: desvanecer2 4s linear infinite;
+
+}
+#bigz{
+  position: absolute;
+  left: 57.5%;
+  top: 4%;
+  width: 3.8%;
+  height: 1%;
+  background-color: black;
+  animation: desvanecer3 4s linear infinite;
+}
+#granz{
+  position: absolute;
+  left: 57.5%;
+  top: 10%;
+  width: 3.8%;
+  height: 1%;
+  background-color: black;
+  animation: desvanecer3 4s linear infinite;
+
+}
+#largez{
+  position: absolute;
+  left: 59%;
+  top: 3%;
+  width: 0.6%;
+  height: 8.8%;
+  background-color: black; 
+  transform: rotate(45deg);
+  animation: desvanecer3 4s linear infinite;
+}
+@keyframes desvanecer1{
+  50%{
+    background-color: rgba(85, 85, 85, 0);
+  }
+  55%{
+    background-color: rgba(221, 214, 214, 0);
+  }
+}
+
+@keyframes desvanecer2{
+  50%{
+    background-color: rgba(85, 85, 85, 0);
+  }
+  78%{
+    background-color: rgba(221, 214, 214, 0);
+  }
+}
+@keyframes desvanecer3{
+  50%{
+    background-color: rgba(85, 85, 85, 0);
+  }
+  93%{
+    background-color: rgba(221, 214, 214, 0);
+  }
+
+}
+  
+
+
+
+
+
+
 
