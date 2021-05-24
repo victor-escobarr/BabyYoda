@@ -1,6 +1,7 @@
 /* °Fondo-------------------------------------*/
 body{
     margin: 0%;
+    font-size: 150%;
 }
 aside{
     position: absolute;
@@ -24,17 +25,19 @@ aside{
   /*=boton rojo con hover*/
   #boton1:hover{
     background-color: tomato;
+    cursor: pointer;
   }
   /*=boton azul*/
   #boton2{
     position: absolute;
     left: 55%;
     top: 10%;
-    background-color: blue;
+    background-color:  rgb(36, 16, 122);
   }
    /*=boton azul con hover*/
   #boton2:hover{
-    background-color: aqua;
+    background-color: blue;
+    cursor: pointer;
   }
    /*=boton dorado*/
   #boton3{
@@ -46,18 +49,20 @@ aside{
   /*=boton dorado con hover*/
   #boton3:hover{
     background-color: yellow;
+    cursor: pointer;
   }
      /*=boton verde*/
   #boton4{
     position: absolute;
     left: 55%;
     top: 25%;
-    background-color: #9AD9AA;
+    background-color: chocolate;
     
   }
    /*=boton verde con hover*/
   #boton4:hover{
-    background-color: rgb(155, 209, 75);
+    background-color: peru;
+    cursor: pointer;
   }
 .accion{
     position: absolute;
@@ -68,36 +73,45 @@ aside{
     position: absolute;
     left: 0%;
     top:55%;
+    font-size: 150%;
+    text-align: center;
+    color: black;
+    border: solid black;
+    border-right: none;
+    color: black;
     
-    background-color: black;
   }
   #boton5:hover{
-    color: black;
-    background-image: url("./Statics/Img/espacio.png");
+    color: darkblue;
+    cursor: pointer;
   }
 
   #boton6{
     position: absolute;
     left: 0%;
     top:70%;
-    
-    background-color: black;
+    font-size: 150%;
+    text-align: center;
+    border: solid black;
+    border-right: none;
   }
   #boton6:hover{
-    color: black;
-    background-image: url("./Statics/Img/espacio.png");
+    color: darkblue;
+    cursor: pointer;
   }
 
   #boton7{
     position: absolute;
     left: 0%;
     top:85%;
-    
-    background-color: black;
+    font-size: 150%;
+    text-align: center;
+    border: solid black;
+    border-right: none;
   }
   #boton7:hover{
-    color: black;
-    background-image: url("./Statics/Img/espacio.png");
+    color: darkblue;
+    cursor: pointer;
   }
  .texto{
     color: black;
@@ -299,7 +313,7 @@ aside{
     background-color: #B48E39;
     border-radius: 0.6em;
     border: solid 0.5px black;
-    animation: comer 5s ease-in infinite running;
+    animation: comer 5s ease-in infinite paused;
 }
 #mangaleft{
     position: absolute;
@@ -308,6 +322,7 @@ aside{
     height: 4.5%;
     width: 2%;
     background-color: #B48E39;
+    border: solid 0.5px black;
     border-radius: 30%;
 }
 #manoIzq{
@@ -320,7 +335,18 @@ aside{
   border-radius: 50%;
   background-color: #9AD9AA;
   border: solid 0.5px black;
-  animation: comer1 5s ease-in infinite running;
+  animation: comer1 5s ease-in infinite paused;
+}
+#manoDer{
+  z-index: 3;
+  position: absolute;
+  top: 42%;
+  left: 47.5%;
+  height: 5%;
+  width: 2.5%;
+  border-radius: 50%;
+  background-color: #9AD9AA;
+  border: solid 0.5px black;
 }
 #comida{
   z-index: 2;
@@ -331,7 +357,7 @@ aside{
   height: 3%;
   border-radius: 50%;
   background-color: tomato;
-  animation: comer2 5s ease-in infinite running;
+  animation: comer2 5s ease-in infinite paused;
 }
 #cintura{
     position: absolute;
