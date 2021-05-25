@@ -73,7 +73,7 @@ aside{
     position: absolute;
     left: 0%;
     top:55%;
-    font-size: 150%;
+    font-size: 20PX;
     text-align: center;
     color: black;
     border: solid black;
@@ -90,7 +90,7 @@ aside{
     position: absolute;
     left: 0%;
     top:70%;
-    font-size: 150%;
+    font-size: 20PX;
     text-align: center;
     border: solid black;
     border-right: none;
@@ -104,7 +104,7 @@ aside{
     position: absolute;
     left: 0%;
     top:85%;
-    font-size: 150%;
+    font-size: 20px;
     text-align: center;
     border: solid black;
     border-right: none;
@@ -120,14 +120,16 @@ aside{
 
   #cambiar{
     position: absolute;
-    left: 25%;
-    top: 4%;
+    left: 7%;
+    top: 3%;
+    font-size: 25px;
   }
 
   #accion{
     position: absolute;
-    left: 40%;
-    top: 50%;
+    left: 30%;
+    top: 48%;
+    font-size: 25px;
   }
 /* =ojo posicion*/
 .ojo{
@@ -283,7 +285,7 @@ aside{
     transform: rotate(310deg);
     border-radius: 0em 100% 0em 0em;
 }
-/* °CUERPO BABY YODA------------------------------------------*/
+/* °CUERPO BABY YODA-----------------------------------------------------------------------*/
 #collar{
     position: absolute;
     top: 37%;
@@ -324,6 +326,7 @@ aside{
     background-color: #B48E39;
     border: solid 0.5px black;
     border-radius: 30%;
+    animation: fuerza 5s ease-in infinite paused;
 }
 #manoIzq{
   z-index: 3;
@@ -347,6 +350,7 @@ aside{
   border-radius: 50%;
   background-color: #9AD9AA;
   border: solid 0.5px black;
+  animation: force 5s ease-in infinite paused;
 }
 #comida{
   z-index: 2;
@@ -580,8 +584,79 @@ aside{
 
 }
   
+/* Usar la fuerz---------------------*/
 
+#roca{
+  position: absolute;
+  top: 85%;
+  left: 30%;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background:#4A311D  ;
+  animation-delay: rokita 5s ease-in infinite paused ;
+}
 
+@keyframes rokita{
+  10%{
+    top: 85%;
+    left: 35%;
+  }
+  20%{
+    top: 85%;
+    left: 40%;
+  }
+  30%{
+    top: 85%;
+    left: 45%;
+  }
+  40%{
+    top: 85%;
+    left: 50%;
+  }
+  50%{
+    top: 85%;
+    left: 60%;
+  }
+
+}
+
+@keyframes force{
+  10%{
+    top: 43%;
+    left: 48%;
+  }
+  20%{
+    top: 43.5%;
+    left: 48.5%;
+  }
+  30%{
+    top: 44.5%;
+    left: 49.2%;
+  }
+  40%{
+    top: 45%;
+    left: 51%;
+  }
+  50%{
+    top: 45%;
+    left: 52%;
+  }
+}
+
+@keyframes fuerza{
+  20%{
+    top: 43%;
+    transform: rotate(-30deg);
+  }
+  50%{
+    top: 42.5%;
+    left: 52%;
+    transform: rotate(-100deg);
+  }
+}
 
 
 

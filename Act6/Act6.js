@@ -1,4 +1,5 @@
 let j=0;
+let k=0;
 $(document).ready(function(){
     console.log("hola")
     $("#boton1").on("click",()=>{
@@ -49,5 +50,19 @@ $(document).ready(function(){
         }
         k++;
     });
+
+    $("#boton7").on("click",()=>{
+        if(k%2==0){
+            $("#roca").css("animation", "rokita 5s ease-in infinite running");
+            $("#mangaleft").css("animation", "fuerza 5s ease-in infinite running");
+            $("#manoDer").css("animation", "force 5s ease-in infinite running");
+        }
+        else{
+            $("#roca").css("animation", "rokita 5s ease-in infinite paused"); 
+            $("#manoDer").css("animation", "fuerza 5s ease-in infinite paused");
+            $("#mangaleft").css("animation", "force 5s ease-in infinite paused");
+        }
+        k++;
+    })
 });
 
