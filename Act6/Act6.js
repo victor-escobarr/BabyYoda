@@ -45,8 +45,10 @@ $(document).ready(function(){
             $("#roca").css("animation", "rokita 5s ease-in infinite running");
             $("#mangaleft").css("animation", "fuerza 5s ease-in infinite running");
             $("#manoDer").css("animation", "force 5s ease-in infinite running");
+            $("#roca").css("display", "block");
         }
         else{
+            $("#roca").css("display", "none");
             $("#roca").css("animation", "rokita 5s ease-in infinite paused"); 
             $("#manoDer").css("animation", "fuerza 5s ease-in infinite paused");
             $("#mangaleft").css("animation", "force 5s ease-in infinite paused");
