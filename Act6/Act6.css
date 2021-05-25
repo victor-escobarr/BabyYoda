@@ -9,6 +9,14 @@ aside{
     height: 100%;
     
 }
+.nombre{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70%;
+}
+#nombre{
+  position: absolute;
+  left: 80%;
+}
 /* °Color-----------------------*/
 .color{
     position: absolute;
